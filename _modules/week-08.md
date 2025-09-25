@@ -17,7 +17,7 @@ days:
     title: Project 3 Peer Review, Final Project Proposal
 - date: '2025-11-19'
   events:
-  - name: LEC 16
+  - name: LEC 14
     type: lecture
     title: Animation
 - date: '2025-11-21'
@@ -25,7 +25,7 @@ days:
   - name: LAB 8
     type: lab
     title: Lab 8
-  - name: LEC 17
+  - name: LEC 15
     type: lecture
     title: Uncertainty & Review
 ---

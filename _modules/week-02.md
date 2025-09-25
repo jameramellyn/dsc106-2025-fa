@@ -14,14 +14,14 @@ days:
     title: Project 1 Checkpoint
 - date: '2025-10-08'
   events:
-  - name: LEC 4
-    type: lecture
-    title: Perception
+  - name: CANCELED
+    type: canceled
+    title: NO Lecture - Sam traveling
 - date: '2025-10-10'
   events:
-  - name: LEC 5
-    type: lecture
-    title: Color
+  - name: CANCELED
+    type: canceled
+    title: NO Lecture - Sam traveling
   - name: LAB 2
     type: lab
     title: Lab 2

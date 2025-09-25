@@ -14,7 +14,7 @@ days:
     title: 'Project 3: Interactive Visualization'
 - date: '2025-11-12'
   events:
-  - name: LEC 14
+  - name: LEC 12
     type: lecture
     title: Maps
 - date: '2025-11-14'
@@ -22,7 +22,7 @@ days:
   - name: LAB 7
     type: lab
     title: Lab 7
-  - name: LEC 15
+  - name: LEC 13
     type: lecture
     title: 'Guest Lecture: Climate'
 ---

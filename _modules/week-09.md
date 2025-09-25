@@ -14,12 +14,12 @@ days:
     title: Final Project Prototype
 - date: '2025-11-26'
   events:
-  - name: LEC 18
+  - name: LEC 16
     type: lecture
     title: Final Project Feedback
 - date: '2025-11-28'
   events:
-  - name: LEC 19
+  - name: LEC 17
     type: lecture
     title: Final Project Feedback
 ---

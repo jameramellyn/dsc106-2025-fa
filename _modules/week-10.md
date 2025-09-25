@@ -14,12 +14,12 @@ days:
     title: Final Project Demo Video
 - date: '2025-12-03'
   events:
-  - name: LEC 20
+  - name: LEC 18
     type: lecture
     title: Video Showcase
 - date: '2025-12-05'
   events:
-  - name: LEC 21
+  - name: LEC 19
     type: lecture
     title: Mock Showcase
 ---

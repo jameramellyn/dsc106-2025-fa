@@ -14,14 +14,14 @@ days:
     title: 'Project 2: Deceptive Visualization'
 - date: '2025-10-29'
   events:
-  - name: LEC 10
-    type: lecture
-    title: 'Guest Lecture: Climate'
-- date: '2025-10-31'
-  events:
-  - name: LEC 11
+  - name: LEC 8
     type: lecture
     title: Interaction
+- date: '2025-10-31'
+  events:
+  - name: LEC 9
+    type: lecture
+    title: D3.js Part 1
   - name: LAB 5
     type: lab
     title: Lab 5

@@ -14,15 +14,15 @@ days:
     title: Project 3 Checkpoint, Project 2 Peer Review
 - date: '2025-11-05'
   events:
-  - name: LEC 12
+  - name: LEC 10
     type: lecture
-    title: Project 3 Feedback
+    title: D3.js Part 2
 - date: '2025-11-07'
   events:
   - name: LAB 6
     type: lab
     title: Lab 6
-  - name: LEC 13
+  - name: LEC 11
     type: lecture
     title: Narrative
 ---

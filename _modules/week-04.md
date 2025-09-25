@@ -14,15 +14,15 @@ days:
     title: Project 2 Checkpoint
 - date: '2025-10-22'
   events:
-  - name: LEC 8
+  - name: LEC 6
     type: lecture
-    title: D3.js Part 1
+    title: JavaScript Part 1
 - date: '2025-10-24'
   events:
   - name: LAB 4
     type: lab
     title: Lab 4
-  - name: LEC 9
+  - name: LEC 7
     type: lecture
-    title: D3.js Part 2
+    title: JavaScript Part 2
 ---

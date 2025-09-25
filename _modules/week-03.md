@@ -14,14 +14,14 @@ days:
     title: 'Project 1: Expository Visualization'
 - date: '2025-10-15'
   events:
-  - name: LEC 6
+  - name: LEC 4
     type: lecture
-    title: JavaScript Part 1
+    title: Perception
 - date: '2025-10-17'
   events:
-  - name: LEC 7
+  - name: LEC 5
     type: lecture
-    title: JavaScript Part 2
+    title: Color
   - name: LAB 3
     type: lab
     title: Lab 3
