@@ -4,9 +4,9 @@ weekNumber: 8
 days:
   - date: '2025-11-17'
     events:
-      - name: DISC 7
+      - name: DISC 8
         type: disc
-        title: Disc 7
+        title: Disc 8
   - date: '2025-11-18'
     events:
       - name: PROJ 3
