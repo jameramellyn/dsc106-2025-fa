@@ -40,15 +40,15 @@ nav_exclude: true
 Below is your lab submission checklist, please read carefully.
 
 1. Submit a link to your github repo and webpage.
-2. Please record a 2 minute `mp4` format video with the following components:
+2. Please record a 1 minute `mp4` format video with the following components:
    1. Present your final webpage.
    2. Show you interacting with your webpage javascript updates (e.g. switching between dark mode, light mode, and automatic mode, along with a page refresh).
 3. Share the most interesting thing you learned from this lab.
 
 Please note that the video has to be in **mp4 format only.** There will be point deductions for other video formats.
 
-**Videos longer than 2 minutes will be trimmed to 2 minutes before we grade, so
-make sure your video is 2 minutes or less.**
+**Videos longer than 1 minute will be trimmed to 1 minute before we grade, so
+make sure your video is 1 minute or less.**
 
 ## Prerequisites
 

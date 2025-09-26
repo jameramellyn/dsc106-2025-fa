@@ -35,7 +35,7 @@ nav_exclude: true
 
 ## Submission
 
-In your submission for the lab, along with the link to your github repo and website, please record a 2 minute video with the following components:
+In your submission for the lab, along with the link to your github repo and website, please record a 1 minute video with the following components:
 
 1. Present your visualizations.
 2. Show you interacting with your visualizations.
@@ -45,8 +45,8 @@ In your submission for the lab, along with the link to your github repo and webs
 
 4. Share the most interesting thing you learned from this lab.
 
-**Videos longer than 2 minutes will be trimmed to 2 minutes before we grade, so
-make sure your video is 2 minutes or less.**
+**Videos longer than 1 minute will be trimmed to 1 minute before we grade, so
+make sure your video is 1 minute or less.**
 
 ## Prerequisites
 
