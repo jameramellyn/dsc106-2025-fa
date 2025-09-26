@@ -8,5 +8,5 @@ description: 2nd year CSE PhD student
 hometown: Los Angeles, CA
 photo: assets/images/yim.jpg
 askabout: hci, tft, cat
-food: 🍔🍚🍣 Chicago Fire Grill, DJK KBBQ, Poke Chop
+food: Chicago Fire Grill, DJK KBBQ, Poke Chop
 ---

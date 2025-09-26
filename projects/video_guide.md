@@ -3,6 +3,7 @@ layout: assignment
 title: 'Video Production Guide'
 parent: '📝 Projects'
 released: false
+nav_order: false
 nav_order: 7
 ---
 

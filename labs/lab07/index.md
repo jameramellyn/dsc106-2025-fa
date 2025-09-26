@@ -4,6 +4,7 @@ title: 'Lab 7: Geospatial Visualizations'
 lab: 7
 parent: '👩‍🔬 Programming Labs'
 released: false
+nav_order: false
 ---
 
 # Lab {{ page.lab }}: Geospatial visualizations

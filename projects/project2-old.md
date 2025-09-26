@@ -3,6 +3,7 @@ layout: assignment
 title: 'Project 2: Deceptive Visualization'
 parent: '📝 Projects'
 released: false
+nav_order: false
 nav_order: 2
 nav_exclude: true
 ---

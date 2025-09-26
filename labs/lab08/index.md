@@ -4,6 +4,7 @@ title: 'Lab 8: Animation & Scrollytelling'
 lab: 8
 parent: '👩‍🔬 Programming Labs'
 released: false
+nav_order: false
 ---
 
 # Lab {{ page.lab }}: Animation
