@@ -3,7 +3,7 @@ layout: assignment
 title: 'Lab 1: Introduction to the Web platform'
 lab: 1
 parent: '👩‍🔬 Programming Labs'
-released: true
+released: false
 ---
 
 # Lab 1: Introduction to the Web platform
