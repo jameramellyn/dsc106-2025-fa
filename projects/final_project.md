@@ -3,7 +3,7 @@ layout: assignment
 title: 'Final Project'
 parent: '📝 Projects'
 released: false
-nav_order: false
+nav_exclude: true
 nav_order: 6
 ---
 

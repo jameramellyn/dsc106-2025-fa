@@ -4,7 +4,7 @@ title: 'Lab 3: Introduction to JS'
 lab: 3
 parent: '👩‍🔬 Programming Labs'
 released: false
-nav_order: false
+nav_exclude: true
 ---
 
 # Lab 3: Introduction to JS
