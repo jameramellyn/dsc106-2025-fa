@@ -4,7 +4,6 @@ title: 'Lab 6: Visualizing quantitative data with D3'
 lab: 6
 parent: '👩‍🔬 Programming Labs'
 released: false
-nav_exclude: true
 ---
 
 # Lab 6: Visualizing quantitative data with D3

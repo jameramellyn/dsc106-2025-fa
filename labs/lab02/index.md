@@ -4,7 +4,6 @@ title: 'Lab 2: Styling with CSS'
 lab: 2
 parent: '👩‍🔬 Programming Labs'
 released: false
-nav_exclude: true
 ---
 
 # Lab 2: Styling with CSS

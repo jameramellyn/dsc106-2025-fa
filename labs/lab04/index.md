@@ -4,7 +4,6 @@ title: 'Lab 4: JavaScript II'
 lab: 4
 parent: '👩‍🔬 Programming Labs'
 released: false
-nav_exclude: true
 ---
 
 # Lab 4: JavaScript II
