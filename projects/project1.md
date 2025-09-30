@@ -74,7 +74,8 @@ their website [TrueFood.Tech](http://TrueFood.Tech/) helpful. For more
 information on the NOVA classification system, see pages 4-6 of the [NOVA
 paper](https://worldnutritionjournal.org/index.php/wn/article/view/5/4).
 
-A Note on Data Quality
+A Note on Data Quality:
+
 This is a real-world dataset, and like many, it is not perfect. You will encounter data quality issues, including extreme outliers, missing values, and other inconsistencies.
 
 Part of your task is to think like a data scientist. When you encounter these issues, you should make (and document) reasonable assumptions about how to handle them for your analysis. Your rationale for these decisions is a required component of your write-up.
