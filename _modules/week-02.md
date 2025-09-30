@@ -12,6 +12,7 @@ days:
   - name: PROJ 1
     type: proj
     title: Project 1 Checkpoint
+    url: projects/project1/#checkpoint-submission
 - date: '2025-10-08'
   events:
   - name: CANCELED
