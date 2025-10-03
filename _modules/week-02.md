@@ -7,6 +7,7 @@ days:
   - name: DISC 2
     type: disc
     title: Disc 2
+    url: labs/lab02/slides
 - date: '2025-10-07'
   events:
   - name: PROJ 1
@@ -26,4 +27,5 @@ days:
   - name: LAB 2
     type: lab
     title: Lab 2
+    url: labs/lab02
 ---
