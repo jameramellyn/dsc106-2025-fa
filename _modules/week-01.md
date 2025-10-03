@@ -19,6 +19,7 @@ days:
       - name: LEC 3
         type: lecture
         title: (In)Effective Visual Encoding
+        url: lectures/03-DSC106-VisualEncodingDarkPatterns.pdf
       - name: LAB 1
         type: lab
         title: Lab 1
