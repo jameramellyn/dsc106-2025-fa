@@ -2,10 +2,10 @@
 layout: assignment
 title: 'Project 2: Persuasive/Deceptive Visualization'
 parent: '📝 Projects'
-released: false
+released: true
 nav_order: 2
-checkpoint_due: 'Tue Apr 22, 11:59pm PT'
-due: 'Tue Apr 29, 11:59pm PT'
+checkpoint_due: 'Tue October 21, 11:59pm PT'
+due: 'Tue October 28, 11:59pm PT'
 ---
 
 # Project 2: Persuasive or Deceptive Visualization?
@@ -18,10 +18,12 @@ due: 'Tue Apr 29, 11:59pm PT'
 > ethically by crafting two different, opposing perspectives to the same
 > question posed about a single dataset. Once this assignment is complete, we
 > will (anonymously) peer review each other's visualizations.
+> 
+>This is a group assignment (3–4 members per group).
+> 
+> **Checkpoint Due: Tue 10/21, by 11:59pm**
 >
-> **Checkpoint Due: Tue 04/22, by 11:59pm**
->
-> **Complete Project Due: Tue 04/29, by 11:59pm**
+> **Complete Project Due: Tue 10/28, by 11:59pm**
 
 <details open markdown="block">
   <summary>
@@ -57,7 +59,7 @@ by Christine Chan—was widely considered to be misleading.
    are intentionally chosen to cover politically charged topics, as ethical
    analysis and visualization is especially critical in such situations.
 
-2. Spend time exploring and familiarizing yourself with the dataset (e.g.,
+2. Spend time exploring and familiarizing with the dataset (e.g.,
    through exploratory visual analysis). Once you feel like you've developed an
    understanding of the data, **devise a proposition** about it: a statement
    that asserts a judgement or opinion about the trends you might have
@@ -122,13 +124,11 @@ by Christine Chan—was widely considered to be misleading.
 
 ## Submission Details
 
-This is an individual assignment. **You may not work in groups**. There is a
-checkpoint submission due on **Tue 04/22, by 11:59pm**. Your completed
-assignment is due on **Tue 04/29, by 11:59pm**.
+This is a group assignment (3–4 members per group). Each group of 3–4 students should submit one shared submission on behalf of all members. Please make sure to include every group member’s full name and UCSD email address in the submission. There is a checkpoint submission due on **Tuesday, October 21, by 11:59 PM**. Your completed assignment is due on **Tuesday, October 28, by 11:59 PM.**.
 
 ### Checkpoint Submission
 
-You must submit your assignment using Gradescope. Please upload a single PDF with the following:
+You must submit your assignment as a group submission on Gradescope. Please upload a single PDF with the following:
 
 1. One the first page, provide 2 persuasive visualizations for one side of a proposition. The visualizations could be persuading the same proposition or two different propositions.
 2. In a **separate** page, provide 2 persuasive visualizations for the opposing side of a proposition. Again, they will either be persuading an opposite stance from the same proposition as the first page or the two different propositions from the first page.
