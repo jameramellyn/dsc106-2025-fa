@@ -107,6 +107,10 @@ In this step, you’ll create a function in your `global.js` file to load projec
 
 Start by defining an **asynchronous function** that will fetch your project data. Use the following snippet to get started:
 
+**What to Do:**
+
+1. Copy this snippet into your `global.js` file.
+
 ```js
 export async function fetchJSON(url) {
   try {
@@ -118,13 +122,14 @@ export async function fetchJSON(url) {
 }
 ```
 
-**What to Do:**
-
-1. Copy this snippet into your `global.js` file.
-
 #### 2. Handling Errors
 
 Add a check to ensure the `fetch` request was successful. If it wasn’t, throw an error to handle invalid responses. Here’s the next piece:
+
+**What to Do:**
+
+1. Place this snippet inside the `try` block, **immediately after** the `fetch` function call.
+2. Use `console.log(response)` to inspect the response object in your browser’s developer tools and confirm that it’s working correctly.
 
 ```js
 if (!response.ok) {
@@ -132,23 +137,18 @@ if (!response.ok) {
 }
 ```
 
-**What to Do:**
-
-1. Place this snippet inside the `try` block, **immediately after** the `fetch` function call.
-2. Use `console.log(response)` to inspect the response object in your browser’s developer tools and confirm that it’s working correctly.
-
 #### 3. Parsing the Data
 
 Once you’ve verified the response is valid, parse it into a format you can work with. Here’s how to parse the response:
+
+**What to Do:**
+
+1. Add this snippet after the `if (!response.ok)` check.
 
 ```js
 const data = await response.json();
 return data;
 ```
-
-**What to Do:**
-
-1. Add this snippet after the `if (!response.ok)` check.
 
 ### Step 1.3: Setting Up the `projects.js` File
 
@@ -212,16 +212,16 @@ You’ll build a `renderProjects` function to dynamically generate and display p
 
 Start by creating a function that accepts two parameters: the `project` object and the `containerElement` where the project will be displayed.
 
+**What to Do:**
+
+1. Add this snippet to your `global.js` file.
+2. Think about why you need these two parameters.
+
 ```js
 export function renderProjects(project, containerElement) {
   // Your code will go here
 }
 ```
-
-**What to Do:**
-
-1. Add this snippet to your `global.js` file.
-2. Think about why you need these two parameters.
 
 **Challenge:**
 
@@ -232,13 +232,13 @@ export function renderProjects(project, containerElement) {
 
 To dynamically render project details, you'll create and populate an `<article>` element for each project. Before adding new project articles, ensure the container is empty to avoid duplication.
 
-```js
-containerElement.innerHTML = '';
-```
-
 **What to Do:**
 
 1. Add this line at the start of your function to clear the existing content of the container element.
+
+```js
+containerElement.innerHTML = '';
+```
 
 **Think About It:**
 
@@ -249,14 +249,14 @@ containerElement.innerHTML = '';
 
 For each project, create a new `<article>` element to hold its details.
 
-```js
-const article = document.createElement('article');
-```
-
 **What to Do:**
 
 1. Add this line inside the loop to create a new `<article>` for each project.
 2. Ensure you use `createElement` to generate the element dynamically.
+
+```js
+const article = document.createElement('article');
+```
 
 **Think About It:**
 
@@ -267,6 +267,10 @@ const article = document.createElement('article');
 
 Use the `innerHTML` property to populate the `<article>` element with dynamic content.
 
+**What to Do:**
+
+1. Add this block after creating the `<article>` element.
+
 ```js
 article.innerHTML = `
     <h3>${project.title}</h3>
@@ -274,10 +278,6 @@ article.innerHTML = `
     <p>${project.description}</p>
 `;
 ```
-
-**What to Do:**
-
-1. Add this block after creating the `<article>` element.
 
 **Think About It:**
 
@@ -288,14 +288,14 @@ article.innerHTML = `
 
 Finally, append the `<article>` element to the provided `containerElement`.
 
-```js
-containerElement.appendChild(article);
-```
-
 **What to Do:**
 
 1. Add this line after defining the `<article>` content.
 2. Ensure `containerElement` is a valid DOM element in your tests.
+
+```js
+containerElement.appendChild(article);
+```
 
 **Check Your Understanding:**
 
@@ -306,17 +306,17 @@ containerElement.appendChild(article);
 
 Now that the basic function is ready, let’s enhance it to allow dynamic heading levels. This makes the function reusable for different contexts.
 
-```js
-export function renderProjects(project, containerElement, headingLevel = 'h2') {
-  // write javascript that will allow dynamic heading levels based on previous function
-}
-```
-
 **What to Do:**
 
 1. Replace your existing function with this new parameter.
 2. Open the browser console to ensure `data` contains the data from your JSON file.
 3. Test it by calling the function with different `headingLevel` values.
+
+```js
+export function renderProjects(project, containerElement, headingLevel = 'h2') {
+  // write javascript that will allow dynamic heading levels based on previous function
+}
+```
 
 **Challenge:**
 
@@ -417,17 +417,17 @@ To load and execute this script, add a `<script>` tag to your `index.html` file.
 
 Before your script can dynamically display the projects, you need to provide a placeholder container in your `index.html` file. This container will hold the dynamically added project content.
 
+**What to Do:**
+
+1. Add this snippet to your `index.html` file.
+2. Ensure the `div` element has the class `projects`, as this matches the container selected in your script.
+
 ```html
 <h2>Latest Projects</h2>
 <div class="projects">
   <!-- Dynamically added content will appear here -->
 </div>
 ```
-
-**What to Do:**
-
-1. Add this snippet to your `index.html` file
-2. Ensure the `div` element has the class `projects`, as this matches the container selected in your script.
 
 **Think About It:**
 
@@ -474,27 +474,27 @@ To make an arbitrary HTTP request in JS, we can use the [`fetch()`](https://deve
 
 You’ll need an asynchronous function to fetch data from the GitHub API. Start by defining a function that takes a username as an argument.
 
+**What to Do:**
+
+1. Create this function in your `global.js` file.
+
 ```js
 export async function fetchGitHubData(username) {
   // return statement here
 }
 ```
 
-**What to Do:**
-
-1. Create this function in your `global.js` file.
-
 #### 2. Fetching the Data
 
 Inside the function, use the `fetchJSON` method to request data from the GitHub API. The API URL should include the `username` parameter.
 
-```js
-return fetchJSON(`https://api.github.com/users/${username}`);
-```
-
 **What to Do:**
 
 1. Place this line inside your function.
+
+```js
+return fetchJSON(`https://api.github.com/users/${username}`);
+```
 
 **Check Your Understanding:**
 
@@ -504,13 +504,13 @@ return fetchJSON(`https://api.github.com/users/${username}`);
 
 Once you’ve fetched the data, parse the response as JSON to make it usable in JavaScript.
 
-```js
-const githubData = await fetchGitHubData('giorgianicolaou');
-```
-
 **What to Do:**
 
 1. Add this line to your `index.js` file to call the `fetchGitHubData` function and retrieve the GitHub data for the specified user.
+
+```js
+const githubData = await fetchGitHubData('giorgianicolaou');
+```
 
 **Test Your Knowledge:**
 
@@ -521,17 +521,22 @@ const githubData = await fetchGitHubData('giorgianicolaou');
 
 Identify the container in your HTML where the fetched data will be displayed. Use `document.querySelector` to select it.
 
-```js
-const profileStats = document.querySelector('#profile-stats');
-```
-
 **What to Do:**
 
 1. Add this line to your `index.js` file to select the container element where the GitHub profile stats will be displayed.
 
+```js
+const profileStats = document.querySelector('#profile-stats');
+```
+
 ### Step 5: Updating the HTML in `index.js`
 
 If the container exists, dynamically update its content using the fetched data. Use template literals to populate the data fields in your HTML.
+
+**What to Do:**
+
+1. Add this block inside `index.js`, after selecting the `profileStats` container and fetching the data.
+2. Modify the placeholders (e.g., `${githubData.public_repos}`) to include any other fields you want to display from the `githubData` object.
 
 ```js
 if (profileStats) {
@@ -545,11 +550,6 @@ if (profileStats) {
     `;
 }
 ```
-
-**What to Do:**
-
-1. Add this block inside `index.js`, after selecting the `profileStats` container and fetching the data.
-2. Modify the placeholders (e.g., `${githubData.public_repos}`) to include any other fields you want to display from the `githubData` object.
 
 **Test Your Knowledge:**
 
