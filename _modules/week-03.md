@@ -27,6 +27,7 @@ days:
         title: Color
         url: lectures/05-DSC106-Color.pdf
   - date: '2025-10-17'
+    events:
       - name: LAB 3
         type: lab
         title: Lab 3
