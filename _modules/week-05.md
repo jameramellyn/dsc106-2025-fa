@@ -7,7 +7,7 @@ days:
   - name: DISC 5
     type: disc
     title: Disc 5
-    url: labs/lab05/slides
+    url: https://docs.google.com/presentation/d/1DtrU_gfY993ubJ5coNHKXDCW8VEkZl8bZEfnquxGdH4/edit?usp=sharing
 - date: '2025-10-28'
   events:
   - name: PROJ 2
