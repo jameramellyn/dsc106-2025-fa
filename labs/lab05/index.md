@@ -885,7 +885,7 @@ Once you finish your projects page should achieve the following, finally!
 
 ### Step 5.4: One Final Pitfall
 
-However, we face **one final pitfall**. While everything looks clean when we interact with the pie chart directly, you may notice that there is still a semi-subtle bug: you can filter projects by pie clicks and by the search bar, but not by both at the same time. If you search in the bar and then click a pie slice, the projects will only be filtered by year, not by the search query. The opposite direction, clicking a pie slice then using the search bar, also does not work. Users should be able to combine both filters!
+However, we face **one final pitfall**. While everything looks clean when we interact with the pie chart directly, you may notice that there is still a semi-subtle bug: you can filter projects by pie clicks and by the search bar, but not by both at the same time. If you search in the bar and then click a pie slice, the projects will only be filtered by year, not by the search query. The opposite direction, clicking a pie slice then using the search bar, should also work. Users should be able to combine both filters in both ways!
 
 You are **not required** to fix this bug. However, we want you to understand why this is happening. So in your video, please **explain why the issue is happening** and **which lines of code you would need to change** to solve this issue.
 
