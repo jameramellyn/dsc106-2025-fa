@@ -8,9 +8,7 @@ nav_order: 4
 
 # Project 3: Interactive Visualization
 
-For this assignment, you will explore the issues involved in implementing
-interactive visualizations. You will build a visualization that enables
-interactive exploration of a dataset and deploy it on the web.
+For this assignment, you will explore the issues involved in implementing interactive visualizations. You will build a visualization that enables interactive exploration of a scientific or environmental dataset and deploy it on the web.
 
 One goal of this assignment is to gain familiarity with implementing interaction
 techniques for visualizations. For example, the [zipdecode][link] and
@@ -21,10 +19,9 @@ problem of uncovering patterns in zip codes and baby names.
 Similarly, [treemaps][link3] were originally developed to display hierarchical
 file structures and were later adapted to the problem of interactively depicting
 a [map of the stock market][link4]. We have seen many other examples of
-interactive visualization techniques in class. The goal of this assignment is
-not only for you to gain hands-on implementation experience, but also for you to
-think about the effectiveness of the specific techniques for your chosen data
-domain.
+interactive visualization techniques in class. In the same spirit, your goal is to extend these ideas to modern Earth and climate data, such as global temperature projections, atmospheric patterns, or satellite imagery. Interactivity will be essential to help viewers explore spatial and temporal variation in these complex datasets.
+
+We have seen many examples of interactive visualization techniques in class. The goal of this assignment is not only for you to gain hands-on implementation experience, but also for you to think critically about how effective specific techniques are for your chosen data domain—for instance, how zooming, filtering, or time sliders support insight into environmental change.
 
 One challenge is to **scope the assignment so that you can finish it within two
 weeks**. Focus on designing a limited yet compelling visualization that enables
@@ -52,14 +49,14 @@ addresses, and PIDs** of each team member, along with a **concise title for your
 interactive visualization**. The visualization title need not be exact, **just a
 rough title should be a good start**. If you are looking for project partners,
 please post to Piazza to find classmates with similar interests! **You should
-submit your team registration by Mon 05/05, 11:59 pm.** Please ensure that the
+submit your team registration by Mon 11/03, 11:59 pm.** Please ensure that the
 team has been finalized before filling the form, and that the details are
 correct.
 
 You will submit your interactive prototype as a webpage hosted on GitHub Pages,
 just like you did for your Project 2 and the labs.
 
-[link5]: https://forms.gle/AULh3m7XUMdXEAzD6
+[link5]: https://docs.google.com/forms/d/e/1FAIpQLSf8RiGZy_xFD8gZVP7yiPPZi1t3ceEtwXE0j9vlxHxco0lytg/viewform?usp=dialog
 
 ## Deliverables
 
@@ -125,11 +122,11 @@ The assignment is out of 14 points possible. Submissions that squarely meet the 
 
 ### Team Registration
 
-Submit your [team registration form][link5] by **Mon 05/05, 11:59 PM**.
+Submit your [team registration form][link5] by **Mon 11/03, 11:59 PM**.
 
 ### Checkpoint Submission
 
-The submission must be made on gradescope by **Tue 05/06, 11:59 PM**. For this submission, submit an **mp4** video no longer than 2 minutes with the following details:
+The submission must be made on gradescope by **Tue 11/04, 11:59 PM**. For this submission, submit an **mp4** video no longer than 2 minutes with the following details:
 
 1. Name of your team and team members
 2. Dataset chosen. Explain the aspects of the datasets you plan to use.
@@ -145,7 +142,7 @@ Please ensure that the video has an associated audio/voiceover rather than just 
 
 ### Final Submission
 
-You must have a working prototype online by **Tue 05/13, 11:59 pm**. Your prototype should be accessible on GitHub pages using a publicly viewable URL.
+You must have a working prototype online by **Tue 11/11, 11:59 pm**. Your prototype should be accessible on GitHub pages using a publicly viewable URL.
 
 In addition, **you must submit the URL on Gradescope**. **One submission per team is sufficient**.
 
@@ -153,44 +150,52 @@ Submissions will be reviewed as part of a subsequent peer review assignment, so 
 
 ## Data Sources
 
-We’ve provided four datasets for you to use. **You must only pick a dataset from the list below**.
+We’ve provided three datasets for you to use. You must only pick a dataset from the list below.
 
-All datasets contain time series data relevant to health, but from different cohort (and species), different time scales, and different modalities. Time series analyses in themselves are not critical to exploring the data, but allow for forecasting and windowing of classifier data alongside unsupervised and statistical approaches.
+All datasets contain spatiotemporal environmental data from satellite and climate observation systems, each differing in resolution, time scale, and modality. Time-based analyses are not mandatory, but they allow for exploring temporal patterns and relationships across regions and variables.
 
-### BIG IDEAs Lab Glycemic Variability and Wearable Device Data v1.0.0
+### Coupled Model Intercomparison Project (CMIP6)
 
-Prof. Jessilynn Dunn at Duke released glucose measurements and wrist-worn multimodal wearable sensor data from high-normoglycemic participants. 2 weeks each to identify spikes and/or hypoglycemic events.
+The CMIP6 dataset contains global climate model simulations produced by research centers around the world under the World Climate Research Programme. These simulations include temperature, precipitation, and greenhouse gas projections across multiple climate scenarios.
 
-Address: [BIG IDEAs Lab Glycemic Variability and Wearable Device Data][link8]
+Address: [NOAA Public CMIP6 Dataset on Google Cloud Marketplace][link8]
 
-Generated by the Empatica 4 wearable device paired with a DexCom 6 continuous glucose monitor, 16 people aged 35-65 are represented by 8-10 days each of continuous, multimodal wearable data. This is paired with meal logs and medical histories about metabolic and cardiac conditions. Data is downloadable as .csv files.
+[link8]: https://console.cloud.google.com/marketplace/product/noaa-public/cmip6?project=fluid-script-453604-u5
 
-[link8]: https://physionet.org/content/big-ideas-glycemic-wearable/1.1.2/
+Data can be accessed through Google Cloud’s public repository. You can subset by region, time, or variable using preprocessed .nc (NetCDF) or .csv files. An example Colab notebook demonstrating data access and processing is linked below.
 
-### Physionet
+Example notebook: [CMIP6 Example (Google Colab)][link9]
 
-Physionet, an online repository of physiological data sets from many sources, has an Open Datasets section. These contain abstracts and descriptions per project.
+[link9]: https://colab.research.google.com/drive/19iEVxE_9QoTeg4st7MmucHJUmO93NXHp?usp=sharing
 
-Address: [PhysioNet Databases][link9]
+### NOAA Geostationary Operational Environmental Satellite (GOES) Data
 
-The largest of the data sources on this list, provided for those seeking more open exploration. This Database is comprised of dozens of data sets. Open Access data sets can be reached by the “Open databases” link at the top left of the landing page.
+The GOES dataset provides real-time satellite imagery from NOAA’s GOES-R series (GOES-16 and GOES-17). These geostationary satellites continuously observe the Western Hemisphere, collecting visible, infrared, and water vapor imagery used for weather, ocean, and climate monitoring.
 
-[link9]: https://physionet.org/about/database/
+Address: [NOAA GOES Dataset on AWS Open Data Registry][link10]
 
-### Mouse data
+[link10]: https://registry.opendata.aws/noaa-goes/
 
-Mouse data covering 2 weeks of minute level activity and core body temperature in males and females. Light is on a 12-on : 12-off controlled square wave so that daily rhythms are aligned. Every 4 days females display “estrus” which is associated with ovulation, and a longer/hotter active period.
+Data is available as cloud-optimized NetCDF and Zarr files that can be accessed via AWS or loaded using Python libraries such as xarray. An example Jupyter notebook demonstrating access and visualization is linked below.
 
-Address: [Mouse Data.xlsx][link10] (Note: Use UCSD email ID to access the link.)
+Example notebook: [GOES Data Access via Zarr/NetCDF (nbviewer)][link11]
 
-Columns are unique IDs (so, e.g., F1 is the same in all tabs). Rows are minutes, in order, across 14 days (there are 1440 minutes in a day). Lights turn on and off every 12 h (mice are nocturnal, so most active when it is dark). Lights Off is t=0, then every 720 it switches. Estrus (the day of ovulation) for all females starts day 2, repeating every 4 days. Activity and body temperature for each individual in each minute are recorded. Data is available as a .xlsx file.
+[link11]: https://nbviewer.jupyter.org/github/oceanhackweek/ohw-tutorials/blob/OHW20/10-satellite-data-access/goes-cmp-netcdf-zarr.ipynb
 
-[link10]: https://docs.google.com/spreadsheets/d/1RXL_oUa1IYxnqfCW-9duz3M83wPlki4y/edit?gid=1872476945#gid=1872476945
+### NASA MODIS (MODerate Resolution Imaging Spectroradiometer) Satellite Imagery
 
-### Korean Surgery Dataset (Demographics, Clinical, and Waveform of physiology from surgeries): “VitalDB”
+The MODIS dataset provides global daily satellite imagery of Earth’s surface and atmosphere collected by NASA’s Terra and Aqua satellites. It includes measurements of vegetation, ocean color, land temperature, and aerosols spanning more than two decades.
 
-Address: [VitalDB][link11]
+Address: [NASA Worldview Application][link12]
 
-Korean hospital data (inter-operative, meaning during the operation) from 6,388 individual surgeries. High frequency biosensor data captures biosigns throughout the procedures, and these are paired with outcomes and related medical records. Data are downloadable zipped .csv files.
+[link12]: https://worldview.earthdata.nasa.gov/
 
-[link11]: https://vitaldb.net/dataset/
+The data can be explored through NASA’s Worldview web interface or accessed directly using the GIBS REST API. The API allows downloading imagery or data tiles for specific coordinates, layers, and time ranges.
+
+API documentation: [GIBS REST API Basics][link13]
+
+[link13]: https://nasa-gibs.github.io/gibs-api-docs/access-basics/
+
+Advanced usage: [GIBS Python Access Guide][link14]
+
+[link14]: https://nasa-gibs.github.io/gibs-api-docs/python-usage/
