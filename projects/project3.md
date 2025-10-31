@@ -56,6 +56,9 @@ correct.
 You will submit your interactive prototype as a webpage hosted on GitHub Pages,
 just like you did for your Project 2 and the labs.
 
+{: .important}
+If you don't fill out the team registration form before the deadline, we will randomly assign you to a group.
+
 [link5]: https://docs.google.com/forms/d/e/1FAIpQLSf8RiGZy_xFD8gZVP7yiPPZi1t3ceEtwXE0j9vlxHxco0lytg/viewform?usp=dialog
 
 ## Deliverables
