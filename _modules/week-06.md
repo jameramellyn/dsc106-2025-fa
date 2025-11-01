@@ -12,6 +12,7 @@ days:
   - name: PROJ 3
     type: proj
     title: Project 3 Checkpoint, Project 2 Peer Review
+    url: projects/project3
 - date: '2025-11-05'
   events:
   - name: LEC 10
@@ -22,6 +23,7 @@ days:
   - name: LAB 6
     type: lab
     title: Lab 6
+    url: labs/lab06
   - name: LEC 11
     type: lecture
     title: D3.js Part 2
