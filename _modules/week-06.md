@@ -7,6 +7,7 @@ days:
   - name: DISC 6
     type: disc
     title: Disc 6
+    url: https://docs.google.com/presentation/d/1IpxqhJuHS_WvVBPSR-ibNb89_VZhJtdhEe-MQWsqMKE/edit?usp=sharing
 - date: '2025-11-04'
   events:
   - name: PROJ 3
