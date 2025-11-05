@@ -19,6 +19,7 @@ days:
       - name: LEC 10
         type: lecture
         title: D3.js Part 1
+        url: lectures/09-DSC106-D3-part1.pdf
   - date: '2025-11-07'
     events:
       - name: LAB 6
