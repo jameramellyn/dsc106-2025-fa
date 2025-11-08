@@ -61,7 +61,7 @@ There is a lot of room for styling and customization in this lab, and you are fr
 ### Step 0.1: Create a new repository and push it to GitHub
 
 In this lab, we will be working on a new project and thus a new repository (that we will subsequently list on our projects page).
-Follow [part 2 step 1-2 of lab 1](../lab01/) again to set up a new Website with a new repo name this time. I called mine `bikewatching`, but you may want to get more creative with bike-related puns. You don't have to worry about the content of your index.html here, we will update that soon! 😉
+Follow [part 2 step 1-2 of lab 1](../lab01/) again to set up a new website with a new repo name this time. I called mine `bikewatching`, but feel free to get creative! You don't have to worry about the content of your index.html here, we will update that soon! 😉
 
 ### Step 0.2: Publish your new project to GitHub Pages
 
