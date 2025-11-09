@@ -29,4 +29,5 @@ days:
       - name: LEC 11
         type: lecture
         title: 'Guest Lecture: Climate'
+        url: lectures/DSC106_part2_DWatsonParris.pdf
 ---

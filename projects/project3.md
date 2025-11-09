@@ -167,9 +167,9 @@ Address: [NOAA Public CMIP6 Dataset on Google Cloud Marketplace][link8]
 
 Data can be accessed through Google Cloud’s public repository. You can subset by region, time, or variable using preprocessed .nc (NetCDF) or .csv files. An example Colab notebook demonstrating data access and processing is linked below.
 
-Example notebook: [CMIP6 Example (Google Colab)][link9]
+Example notebook: [CMIP6 Example (updated Nov 8, 2025)][link9]
 
-[link9]: https://colab.research.google.com/drive/19iEVxE_9QoTeg4st7MmucHJUmO93NXHp?usp=sharing
+[link9]: https://github.com/dsc-courses/dsc106-2025-fa/blob/main/lectures/climate-lecture/CMIP%20basic_search_and_load-colab.ipynb
 
 ### NOAA Geostationary Operational Environmental Satellite (GOES) Data
 
@@ -181,9 +181,12 @@ Address: [NOAA GOES Dataset on AWS Open Data Registry][link10]
 
 Data is available as cloud-optimized NetCDF and Zarr files that can be accessed via AWS or loaded using Python libraries such as xarray. An example Jupyter notebook demonstrating access and visualization is linked below.
 
-Example notebook: [GOES Data Access via Zarr/NetCDF (nbviewer)][link11]
+Example notebook 1: [GOES Data Access via Zarr/NetCDF (nbviewer)][link11]
+
+Example notebook 2: [Simple GOES Demo][goes_simple]
 
 [link11]: https://nbviewer.jupyter.org/github/oceanhackweek/ohw-tutorials/blob/OHW20/10-satellite-data-access/goes-cmp-netcdf-zarr.ipynb
+[goes_simple]: https://github.com/dsc-courses/dsc106-2025-fa/blob/main/lectures/climate-lecture/Simple%20GOES%20demo.ipynb
 
 ### NASA MODIS (MODerate Resolution Imaging Spectroradiometer) Satellite Imagery
 
