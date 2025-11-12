@@ -97,7 +97,7 @@ Apart from the team registration form, please also submit the Gradescope assignm
 
 - **Deliverables (Sun 12/08, 11:59pm)**. Publish your final project web page and updated demo video. You may make final touches to your page after any feedback from our video session. More information about preparing the final deliverables is available in the project deliverables section.
 
-- **Final Project Showcase (Mon 12/09, 11:30am-2:30pm)**. We will host a showcase for DSC 106 in the HDSI MPR on Tue 12/09, 11:30am-2:30pm. All students are required to attend the showcase.
+- **Final Project Showcase (Mon 12/09, 11:30am-2:30pm)**. We will host a showcase for DSC 106 on Tue 12/09, 11:30am-2:30pm. All students are required to attend the showcase.
 
 [link8]: https://docs.google.com/forms/d/e/1FAIpQLSdHXHgpTQMfSqoPeoKDePG9q5C2Re8rzx3U5C47VyCsTAfxJA/viewform?usp=publish-editor
 
