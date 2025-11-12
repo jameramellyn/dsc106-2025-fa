@@ -19,6 +19,7 @@ days:
       - name: LEC 12
         type: lecture
         title: D3.js Part 2
+        url: lectures/10-DSC106-D3-part2.pdf
   - date: '2025-11-14'
     events:
       - name: LEC 13
