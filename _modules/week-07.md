@@ -25,6 +25,7 @@ days:
       - name: LEC 13
         type: lecture
         title: Narrative
+        url: lectures/11-DSC106-Narrative.pdf
       - name: LAB 7
         type: lab
         title: Lab 7
