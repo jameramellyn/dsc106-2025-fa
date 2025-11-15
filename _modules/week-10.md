@@ -12,6 +12,7 @@ days:
   - name: FINAL PROJ
     type: proj
     title: Final Project Demo Video
+    url: projects/final_project/#project-milestones
 - date: '2025-12-03'
   events:
   - name: LEC 18

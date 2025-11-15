@@ -7,6 +7,7 @@ days:
   - name: FINAL PROJ
     type: proj
     title: Final Project
+    url: projects/final_project
 - date: '2025-12-09'
   events:
   - name: FINAL PROJ

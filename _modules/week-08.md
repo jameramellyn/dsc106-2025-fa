@@ -11,10 +11,12 @@ days:
   events:
   - name: PROJ 3
     type: proj
-    title: Project 3 Peer Review, Final Project Proposal
+    title: Project 3 Peer Review
+    # url: projects/project3peer
   - name: FINAL PROJ
     type: proj
-    title: Project 3 Peer Review, Final Project Proposal
+    title: Final Project Proposal
+    url: projects/final_project/#project-milestones
 - date: '2025-11-19'
   events:
   - name: LEC 14
@@ -28,4 +30,5 @@ days:
   - name: LAB 8
     type: lab
     title: Lab 8
+    url: labs/lab08
 ---

@@ -12,6 +12,7 @@ days:
   - name: FINAL PROJ
     type: proj
     title: Final Project Prototype
+    url: projects/final_project/#project-milestones
 - date: '2025-11-26'
   events:
   - name: LEC 16
