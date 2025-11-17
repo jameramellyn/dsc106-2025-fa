@@ -41,7 +41,7 @@ To get checked off for the lab, please record a 1 minute video in the following 
 **Videos longer than 1 minute will be trimmed to 1 minute before we grade, so
 make sure your video is 1 minute or less.**
 
-## [Slides](https://docs.google.com/presentation/d/1j0YPeyXS-uVA7sYhIU5Esa0rBrXXPTqYf_q6hfA2Wx4/edit?usp=sharing)
+## [Slides](https://docs.google.com/presentation/d/1Q6CkYD5BXy18g7CT93wLh_4-1eVkwomclrXgpkt284U/edit?usp=sharing)
 
 <!-- - [Relevant technologies (summary slide)](./slides/#technologies) -->
 
