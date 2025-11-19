@@ -23,6 +23,7 @@ days:
       - name: LEC 14
         type: lecture
         title: Maps
+        url: lectures/12-DSC106-Maps.pdf
   - date: '2025-11-21'
     events:
       - name: LEC 15
