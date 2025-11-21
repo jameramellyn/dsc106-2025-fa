@@ -29,6 +29,7 @@ days:
       - name: LEC 15
         type: lecture
         title: Animation
+        url: lectures/13-DSC106-Animation.pdf
       - name: LAB 8
         type: lab
         title: Lab 8
