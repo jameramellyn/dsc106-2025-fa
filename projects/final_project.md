@@ -93,7 +93,7 @@ Apart from the team registration form, please also submit the Gradescope assignm
 
 - **Initial Prototype (Tues 11/25, 11:59pm, Can Use Slip Days)**. Develop an initial prototype of your project and, similar to Project 3, publish it using GitHub pages. This prototype will be used by the course staff to provide feedback on your designs. It is expected that your project will not yet be in a "complete" state; however, by this point you should have the structure of your project laid out, rough prototypes of your main visualization(s) and interactions, and at least basic descriptive text. Each team should submit the URL for their project on Gradescope.
 
-- **Demo Video (Tues 12/02, 11:59pm, Can Use Slip Days)**. You must produce a demo video (not to exceed 1 minute in length) that introduces and explains your project. Your video can take the form of a narrated demo of your project, and may include additional content as you see fit. More information about preparing the video is available in the project deliverables section.
+- **Demo Video (Tues 12/02, 11:59pm, Can Use Slip Days)**. You must produce a demo video (not to exceed 2 minutes in length) that introduces and explains your project. Your video can take the form of a narrated demo of your project, and may include additional content as you see fit. More information about preparing the video is available in the project deliverables section.
 
 - **Deliverables (Sun 12/08, 11:59pm)**. Publish your final project web page and updated demo video. You may make final touches to your page after any feedback from our video session. More information about preparing the final deliverables is available in the project deliverables section.
 
