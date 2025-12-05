@@ -95,9 +95,9 @@ Apart from the team registration form, please also submit the Gradescope assignm
 
 - **Demo Video (Tues 12/02, 11:59pm, Can Use Slip Days)**. You must produce a demo video (not to exceed 2 minutes in length) that introduces and explains your project. Your video can take the form of a narrated demo of your project, and may include additional content as you see fit. More information about preparing the video is available in the project deliverables section.
 
-- **Deliverables (Sun 12/08, 11:59pm)**. Publish your final project web page and updated demo video. You may make final touches to your page after any feedback from our video session. More information about preparing the final deliverables is available in the project deliverables section.
+- **Deliverables (Mon 12/08, 11:59pm)**. Publish your final project web page and updated demo video. You may make final touches to your page after any feedback from our video session. More information about preparing the final deliverables is available in the project deliverables section.
 
-- **Final Project Showcase (Mon 12/09, 11:30am-2:30pm)**. We will host a showcase for DSC 106 on Tue 12/09, 11:30am-2:30pm. All students are required to attend the showcase.
+- **Final Project Showcase (Tues 12/09, 11:30am-2:30pm)**. We will host a showcase for DSC 106 on Tue 12/09, 11:30am-2:30pm. All students are required to attend the showcase.
 
 [link8]: https://docs.google.com/forms/d/e/1FAIpQLSdHXHgpTQMfSqoPeoKDePG9q5C2Re8rzx3U5C47VyCsTAfxJA/viewform?usp=publish-editor
 
