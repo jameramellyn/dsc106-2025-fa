@@ -4,9 +4,9 @@ weekNumber: 10
 days:
   - date: '2025-12-01'
     events:
-      - name: DISC 10
+      - name: FINAL PROJ FEEDBACK
         type: disc
-        title: Disc 10
+        title: Final Project Feedback
   - date: '2025-12-02'
     events:
       - name: FINAL PROJ
