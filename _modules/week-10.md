@@ -23,5 +23,6 @@ days:
     events:
       - name: LEC 19
         type: lecture
-        title: Video Showcase
+        title: Project 3 Awards, Video Showcase
+        url: lectures/16-DSC106-Video-Showcase.pdf
 ---
