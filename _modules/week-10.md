@@ -4,9 +4,9 @@ weekNumber: 10
 days:
   - date: '2025-12-01'
     events:
-      - name: FINAL PROJ FEEDBACK
+      - name: DISC 9
         type: disc
-        title: Final Project Feedback
+        title: Final Project Feedback Group Meetings
   - date: '2025-12-02'
     events:
       - name: FINAL PROJ
