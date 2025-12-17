@@ -13,13 +13,14 @@ student teams.
 
 There were four kinds of awards given to student submissions:
 
-1. The Best Project Award was given to the top 8% of submissions based on the
+1. The Best Project Award was given to the top 3 submissions based on the
    effectiveness and creativity of the project visualizations.
-1. The Best Presentation Award was given to the top 8% of submissions based on
+1. The Best Presentation Award was given to the top 4 submissions based on
    the quality of the project video and presentation during the showcase.
-1. The Honorable Mention Award was given to the top 16% of submissions based on
-   effectiveness and creativity of the project visualizations.
-1. The People's Choice Award was given to the top 14% of submissions based on
+1. The Honorable Mention Award was given to the top 3 submissions (after the
+   Best Project Awards) based on effectiveness and creativity of the project
+   visualizations.
+1. The People's Choice Award was given to the top 5 submissions based on
    votes cast during the in-person showcase event.
 
 {% for project in site.data.projects %}
