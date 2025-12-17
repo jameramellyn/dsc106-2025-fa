@@ -16,20 +16,22 @@ Options:
     -h --help     Show this help message
     --output=<output_file>  Output YAML path [default: ../_data/projects.yml]
 """
+
 import argparse
+
 import pandas as pd
 import yaml
 
-
 # Column names from Gradescope CSV
-COL_TITLE = 'Question 1 Response'
-COL_PERMISSION = 'Question 5.1 Response'
-COL_VIDEO_PERMISSION = 'Question 5.2 Response'
-COL_PROJECT_URL = 'Question 3 Response'
-COL_VIDEO_URL = 'Question 4 Response'
-COL_AWARD = 'Award'
-COL_SUBMISSION_ID = 'Submission ID'
-COL_STUDENT_NAME = 'Name'
+COL_TITLE = "Question 1 Response"
+COL_PERMISSION = "Question 5.1 Response"
+COL_VIDEO_PERMISSION = "Question 5.2 Response"
+COL_PROJECT_URL = "Question 3 Response"
+COL_VIDEO_URL = "Question 4 Response"
+COL_AWARD = "Award"
+COL_SUBMISSION_ID = "Submission ID"
+COL_STUDENT_NAME = "Name"
+COL_TOTAL_SCORE = "Total Score"
 
 
 def convert_csv_to_yml(csv_path, yml_path):
@@ -41,8 +43,9 @@ def convert_csv_to_yml(csv_path, yml_path):
 
     for _, row in df.iterrows():
         # Skip if no permission given
-        if (pd.isna(row[COL_PERMISSION]) or
-                'text_file_id' not in str(row[COL_PERMISSION])):
+        if pd.isna(row[COL_PERMISSION]) or "text_file_id" not in str(
+            row[COL_PERMISSION]
+        ):
             continue
 
         submission_id = int(row[COL_SUBMISSION_ID])  # type: ignore
@@ -50,59 +53,91 @@ def convert_csv_to_yml(csv_path, yml_path):
         # Use submission ID as key for grouping
         if submission_id not in grouped_projects:
             url = row[COL_PROJECT_URL].strip()
+            total_score = pd.to_numeric(
+                row.get(COL_TOTAL_SCORE), errors="coerce"
+            )
             project = {
-                'title': row[COL_TITLE].strip(),
-                'submission_id': submission_id,
-                'url': url,
-                'team': [],
+                "title": row[COL_TITLE].strip(),
+                "submission_id": submission_id,
+                "url": url,
+                "team": [],
+                # Keep score only for sorting; drop before writing YAML
+                "_sort_total_score": None,
             }
 
+            if not pd.isna(total_score):
+                project["_sort_total_score"] = float(total_score)
+
             # Add video URL if permission given
-            if (not pd.isna(row[COL_VIDEO_PERMISSION]) and
-                    'i would like my video to be linked' in
-                    str(row[COL_VIDEO_PERMISSION]).lower()):
+            if (
+                not pd.isna(row[COL_VIDEO_PERMISSION])
+                and "i would like my video to be linked"
+                in str(row[COL_VIDEO_PERMISSION]).lower()
+            ):
                 video_url = row.get(COL_VIDEO_URL)
                 if not pd.isna(video_url):
-                    project['video'] = str(video_url).strip()
+                    project["video"] = str(video_url).strip()
 
             # Add award if applicable
             if not pd.isna(row[COL_AWARD]):
-                project['award'] = row[COL_AWARD].strip()
+                project["award"] = row[COL_AWARD].strip()
 
             grouped_projects[submission_id] = project
 
         # Add team member from Name column
         if not pd.isna(row[COL_STUDENT_NAME]):
             student_name = row[COL_STUDENT_NAME].strip()
-            if student_name not in grouped_projects[submission_id]['team']:
-                grouped_projects[submission_id]['team'].append(student_name)
+            if student_name not in grouped_projects[submission_id]["team"]:
+                grouped_projects[submission_id]["team"].append(student_name)
 
     # Convert dictionary to list and write to YAML
     projects = list(grouped_projects.values())
 
-    # Put best project awards first, then honorable mentions, then people's
-    # choice
+    # Put best project awards first, then best presentation awards, then
+    # honorable mentions, then people's choice
     def get_sort_key(project):
-        award = project.get('award', '').lower()
-        if 'best project' in award:
-            return 0
-        elif 'honorable mention' in award:
-            return 1
+        award = project.get("award", "").lower()
+        if "best project" in award:
+            priority = 0
+        elif "best presentation" in award:
+            priority = 1
+        elif "honorable mention" in award:
+            priority = 2
         elif "people's choice" in award:
-            return 2
+            priority = 3
         else:
-            return 3
+            priority = 4
+
+        if priority < 4:
+            return (priority, 0)
+
+        score = project.get("_sort_total_score")
+        # For non-award projects, sort by descending total score
+        return (
+            (priority, -score)
+            if score is not None
+            else (priority, float("inf"))
+        )
 
     projects.sort(key=get_sort_key)
 
+    # Remove sorting-only keys before writing YAML
+    for project in projects:
+        project.pop("_sort_total_score", None)
+
     # Write to YAML file
-    with open(yml_path, 'w', encoding='utf-8') as f:
-        yaml.dump(projects, f, default_flow_style=False,
-                  allow_unicode=True, sort_keys=False)
+    with open(yml_path, "w", encoding="utf-8") as f:
+        yaml.dump(
+            projects,
+            f,
+            default_flow_style=False,
+            allow_unicode=True,
+            sort_keys=False,
+        )
     print(f"Successfully converted {len(projects)} projects to YAML.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Convert Gradescope CSV to YAML for project showcase."
     )

@@ -38,7 +38,7 @@ for dir in $base_dir/submission_*
     # Check if the ID was extracted correctly
     if test "$id" != "$dir"
         # Create the new directory name
-        set new_dir "$base_dir$id"
+        set new_dir "$base_dir/$id"
 
         # Rename the directory
         echo "Renaming directory $dir to $new_dir"

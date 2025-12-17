@@ -25,7 +25,10 @@
 
     {% if project.award %}
     <div class="project-award">
-      <span class="award-badge">{{ project.award | escape }}</span>
+      {% assign awards = project.award | split: ", " %} {% for award in awards
+      %}
+      <span class="award-badge">{{ award | escape }}</span>
+      {% endfor %}
     </div>
     {% endif %} {% if project.url %}
     <div class="project-website">
