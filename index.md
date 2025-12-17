@@ -18,7 +18,7 @@ nav_order: 1
 <!-- [Recordings](https://podcast.ucsd.edu/){: .btn .btn-blue } -->
 
 {: .note }
-**Sep 25, 2025:** Welcome to DSC 106 Fall 2025!
+**Dec 17, 2025:** DSC 106 Fall 2025 is complete. Check out student projects on the [Final Project Showcase page](showcase)!
 
 {% for module in site.modules %}
 {{ module }}
