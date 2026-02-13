@@ -206,3 +206,8 @@ Example 2
 Example 3
 </figcaption>
 </figure>
+
+## Acknowledgements
+
+The design of this project is largely based on a similar assignment from Arvind
+Satyanarayan from MIT and Jeffrey Heer at the University of Washington.

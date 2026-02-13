@@ -188,3 +188,9 @@ present your work with your team during your presentation time slot.
 You will submit a team feedback form where you will assess the contributions of
 your teammates and reflect on your group collaboration. This is worth 2% of your
 final grade, and we will grade based on completion.
+
+## Acknowledgements
+
+The design of this assignment is largely based on similar assignment from Arvind
+Satyanarayan from the Massachusetts Institute of Technology and Jeffrey Heer at
+the University of Washington.

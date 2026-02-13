@@ -466,11 +466,12 @@ you, including:
 
 ## Acknowledgements 🙏
 
-Materials for this course have been adapted from classes taught by **Soohyun Nam
-Liao** and **Jared Wilber** at UCSD, **Jeffrey Heer** and **Leilani Battle** at
-UW, **Arvind Satyanarayan** at MIT, and **Maneesh Agrawala** and **Michael
-Bernstein** at Stanford University. Special thanks to **Lea Verou** at MIT, who
-developed the original material for many of the labs used in this course.
+Special thanks to **Arvind Satyanarayan** and **Lea Verou** at MIT, who
+developed the original material for many of the lectures, projects, and labs
+used in this course. Materials for this course have also been adapted from
+classes taught by **Soohyun Nam Liao** and **Jared Wilber** at UCSD, **Jeffrey
+Heer** and **Leilani Battle** at UW, and **Maneesh Agrawala** and **Michael
+Bernstein** at Stanford University. 
 
 The class draws heavily on materials and examples found online, and we try our
 best to give credit by linking to the original source. Please contact us if you

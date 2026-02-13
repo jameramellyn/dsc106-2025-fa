@@ -205,3 +205,9 @@ API documentation: [GIBS REST API Basics][link13]
 Advanced usage: [GIBS Python Access Guide][link14]
 
 [link14]: https://nasa-gibs.github.io/gibs-api-docs/python-usage/
+
+## Acknowledgements
+
+The design of this assignment is largely based on similar assignment from Arvind
+Satyanarayan from the Massachusetts Institute of Technology and Jeffrey Heer at
+the University of Washington.

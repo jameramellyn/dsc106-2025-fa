@@ -196,3 +196,9 @@ The following research papers help enumerate the ways different choices in data 
 - [From Invisible to Visible: Impacts of Metadata in Communicative Data Visualization](https://cyxiong.com/wp-content/uploads/2022/12/impactsMetadata.pdf), by Alyxander Burns et al. _IEEE TVCG 2022_
 - [Affective Learning Objectives for Communicative Visualizations](https://arxiv.org/abs/2208.04078), by Elsie Lee-Robbins and Eytan Adar. _IEEE TVCG 2023_
 - [Affective Visualization Design: Leveraging the Emotional Impact of Data](https://arxiv.org/abs/2308.02831) by Xingyu Lan, Yanqiu Wu, and Nan Cao. _IEEE TVCG 2024_
+
+## Acknowledgements
+
+The design of this assignment is largely based on similar assignment from Arvind
+Satyanarayan from the Massachusetts Institute of Technology and Jeffrey Heer at
+the University of Washington.
